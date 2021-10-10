@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Trip } from './Trip';
 
 const URL : string = "https://public-api.blablacar.com/api/v3/trips?key=YzbiA8L6DcqxTvSna1lOFQQU66FosDVs&from_coordinate=48.8566%2C2.3522&to_coordinate=45.764043%2C4.835659&from_country=FR&to_country=FR&locale=fr-FR&start_date_local=2021-10-10T00:00:00&currency=EUR&count=100";
-const ITEMS_PER_PAGE : number = 10;
+const ITEMS_PER_PAGE : number = 5;
 
 function App() {
 
@@ -14,11 +14,9 @@ function App() {
   const [pageCount, setPagecount] = useState<number>(0)
 
   useEffect(() => {
-    console.log('useeffect')
     axios.get(URL).then((response:any) => {
       const trips: Array<Trip> = response.data.trips;
       const tripsWithIndex : Array<Trip> = trips.map((trip, index) => ({ ...trip, id: index + 1 }));
-      console.log('tripsWithIndex' + tripsWithIndex)
       setTrips(tripsWithIndex);
       setCurrentTrips(tripsWithIndex.slice(0, ITEMS_PER_PAGE))
       setPagecount(Math.ceil(trips.length / ITEMS_PER_PAGE))
@@ -52,7 +50,6 @@ function App() {
           </tbody>
         ))}
       </table>
-      <div id="react-paginate">
         <ReactPaginate
           pageCount={pageCount}
           marginPagesDisplayed={1}
@@ -69,7 +66,6 @@ function App() {
           nextLinkClassName={'page-link'}
           activeClassName={'active'}
         />
-      </div>
     </div>
   );
 }

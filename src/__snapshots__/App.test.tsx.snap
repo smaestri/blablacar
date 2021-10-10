@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with pagination 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2>
+      Trips from Paris to Lyon
+    </h2>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th
+            scope="col"
+          >
+            Num
+          </th>
+          <th
+            scope="col"
+          >
+            From
+          </th>
+          <th
+            scope="col"
+          >
+            To
+          </th>
+          <th
+            scope="col"
+          >
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Paris0
+          </td>
+          <td>
+            Lyon0
+          </td>
+          <td>
+            0 EUR
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Paris1
+          </td>
+          <td>
+            Lyon1
+          </td>
+          <td>
+            10 EUR
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Paris2
+          </td>
+          <td>
+            Lyon2
+          </td>
+          <td>
+            20 EUR
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            4
+          </th>
+          <td>
+            Paris3
+          </td>
+          <td>
+            Lyon3
+          </td>
+          <td>
+            30 EUR
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            5
+          </th>
+          <td>
+            Paris4
+          </td>
+          <td>
+            Lyon4
+          </td>
+          <td>
+            40 EUR
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ul
+      class="pagination justify-content-center"
+    >
+      <li
+        class="page-item disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Previous page"
+          class="page-link"
+          rel="prev"
+          role="button"
+          tabindex="0"
+        >
+          Previous
+        </a>
+      </li>
+      <li
+        class="page-item active"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 1 is your current page"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 2"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          2
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 3"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          3
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 4"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          4
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 5"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          5
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 6"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          6
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          ...
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-label="Page 20"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          20
+        </a>
+      </li>
+      <li
+        class="page-item"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          class="page-link"
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          Next
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`renders without pagination 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2>
+      Trips from Paris to Lyon
+    </h2>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th
+            scope="col"
+          >
+            Num
+          </th>
+          <th
+            scope="col"
+          >
+            From
+          </th>
+          <th
+            scope="col"
+          >
+            To
+          </th>
+          <th
+            scope="col"
+          >
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Paris
+          </td>
+          <td>
+            Lyon
+          </td>
+          <td>
+            10 EUR
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ul
+      class="pagination justify-content-center"
+    >
+      <li
+        class="page-item disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Previous page"
+          class="page-link"
+          rel="prev"
+          role="button"
+          tabindex="0"
+        >
+          Previous
+        </a>
+      </li>
+      <li
+        class="page-item active"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 1 is your current page"
+          class="page-link"
+          role="button"
+          tabindex="0"
+        >
+          1
+        </a>
+      </li>
+      <li
+        class="page-item disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Next page"
+          class="page-link"
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          Next
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

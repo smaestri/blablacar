@@ -2,7 +2,6 @@ import { rest } from 'msw'
 import { Trip } from '../Trip'
 
 export const handlers = [
-    // Handles a POST /login request
     rest.get('https://public-api.blablacar.com/api/v3/trips', (req, res, ctx) => {
       const result : {trips: Array<Trip>} = {
         trips: [{id:1,
