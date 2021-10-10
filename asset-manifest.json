@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/blablacar/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/blablacar/static/js/main.a24eb690.chunk.js",
-    "main.js.map": "/blablacar/static/js/main.a24eb690.chunk.js.map",
+    "main.css": "/blablacar/static/css/main.d725c3ff.chunk.css",
+    "main.js": "/blablacar/static/js/main.e1b95f77.chunk.js",
+    "main.js.map": "/blablacar/static/js/main.e1b95f77.chunk.js.map",
     "runtime-main.js": "/blablacar/static/js/runtime-main.a63f8b02.js",
     "runtime-main.js.map": "/blablacar/static/js/runtime-main.a63f8b02.js.map",
     "static/css/2.0a9ec390.chunk.css": "/blablacar/static/css/2.0a9ec390.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.d856dabb.chunk.js.map": "/blablacar/static/js/3.d856dabb.chunk.js.map",
     "index.html": "/blablacar/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/blablacar/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/blablacar/static/css/main.6dea0f05.chunk.css.map",
+    "static/css/main.d725c3ff.chunk.css.map": "/blablacar/static/css/main.d725c3ff.chunk.css.map",
     "static/js/2.669d7cea.chunk.js.LICENSE.txt": "/blablacar/static/js/2.669d7cea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a63f8b02.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.669d7cea.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.a24eb690.chunk.js"
+    "static/css/main.d725c3ff.chunk.css",
+    "static/js/main.e1b95f77.chunk.js"
   ]
 }
